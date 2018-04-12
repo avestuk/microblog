@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, I'm {{ user.username }}!</h1>
+    <div><p>This is just a small subset of the things I like!</b></p></div>
+<p><ul>
+    <li>Charlie</li>
+    <li>Techno</li>
+    <li>Food</li>
+</ul></p>
+{% endblock %}
